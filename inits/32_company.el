@@ -25,3 +25,5 @@
 (use-package company-go)
 (use-package company-php)
 (use-package company-web)
+
+(provide '32_company)
