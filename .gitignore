@@ -1,0 +1,8 @@
+auto-save-list/
+elpa/*
+tramp
+\#*\#
+.\#*
+!.gitkeep
+straight/*
+!straight/versions/default.el
