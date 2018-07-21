@@ -4,4 +4,6 @@ tramp
 \#*\#
 .\#*
 !.gitkeep
-straight/
+straight/repos
+straight/build
+straight/build-cache.el
