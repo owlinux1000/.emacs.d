@@ -20,10 +20,8 @@
   )
 
 (use-package irony)
-(use-package irony-mode) ;; 入れておけばclang無くても怒られない
+(use-package company-clang) ;; 入れておけばclang無くても怒られない
 (use-package company-irony)
 (use-package company-go)
 (use-package company-php)
 (use-package company-web)
-
-(provide '32_company)
