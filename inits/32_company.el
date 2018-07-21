@@ -20,7 +20,6 @@
   )
 
 (use-package irony)
-(use-package company-clang) ;; 入れておけばclang無くても怒られない
 (use-package company-irony)
 (use-package company-go)
 (use-package company-php)
