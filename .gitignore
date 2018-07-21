@@ -4,5 +4,5 @@ tramp
 \#*\#
 .\#*
 !.gitkeep
-straight/*
-!straight/versions/default.el
+straight/
+!straight/versions
