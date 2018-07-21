@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: template
+# key: template
+# --
+
+BITS 64
+section .text
+global _start
+	
+_start:
+        $0	
+	
