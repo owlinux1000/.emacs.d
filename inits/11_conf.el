@@ -1,0 +1,4 @@
+(use-package nginx-mode)
+(use-package yaml-mode :mode "\\.ya?ml$")
+(use-package json-mode :mode "\\.json$")
+(use-package dockerfile-mode :mode "Dockerfile")
