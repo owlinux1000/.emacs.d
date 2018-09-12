@@ -13,11 +13,9 @@
   (setq web-mode-enable-auto-pairing t)
   (setq web-mode-enable-auto-expanding t)
   (setq web-mode-enable-css-colorization t)
+  ;関数の折り畳み機能と被りエラーを直せないため一時コメントアウト
+  ;(bind-key "C-o" web-mode-fold-or-unfold)
 
-  :bind
-  (:map global-map
-        ("C-o" . web-mode-fold-or-unfold)
-        )
 )
 	   
    
