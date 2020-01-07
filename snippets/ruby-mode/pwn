@@ -4,19 +4,23 @@
 # --
 #!/usr/bin/env ruby
 # coding: ascii-8bit
-require 'pwnlib'
-require 'fsalib'
-include Shellcode
+require 'pwn'
+require 'fsa'
 
 host = 'localhost'
-port = 8888
+port = 9999
+libc_path = ""
 
 if(ARGV[0] == 'r')
   host = ''
-    port = 0
-    end
-
-PwnTube.open(host, port) do |t|
-  # t.debug = true
-    $0
+  port = 0
+  libc_path = ""
 end
+
+$z = Sock.new host, port
+def z; $z; end
+context.log_level = :debug
+elf = ELF.new ""
+libc = ELF.new libc_path
+
+$0
